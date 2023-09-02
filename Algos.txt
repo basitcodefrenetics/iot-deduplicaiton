@@ -1,0 +1,24 @@
+Server side algo:
+1. tn = track names, ct = concat string
+2. vf1, vf2, vf3, vf4, vf5 vitals data
+3. maxLen => pick the maximum data length
+4. for v till maxLen
+5.         check if all vitals data contains index v
+6.                 pick vitals data from each vf's
+7.                 ignore nan values and pick column names of the values that are not nan
+8.                 get index i of column names from tn
+9.                 ct = create concat string where i is index and value is concatenated by semicolon. e.g i1;value,i2;value,i3;value
+10.               concat next vf's data to the ct
+11.               publish ct to client
+
+
+
+
+Client side algo:
+1. fetch ct from Mqtt
+2. split column number and value
+3. check threshold value according to column
+4. if threshold satisfies
+5.         replace value to bit 1
+6. else keep the same value
+7. save data to database/json/file/vitalfile without other missing columns, to reduce the size of data

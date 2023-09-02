@@ -1,0 +1,197 @@
+Parameter,Description,Type/Hz,Unit,Min,Max
+SNUADC/ART,Arterial pressure wave,W/500,mmHg,40,50
+SNUADC/CVP,Central venous pressure wave,W/500,mmHg,40,50
+SNUADC/ECG_II,ECG lead II wave,W/500,mV,40,50
+SNUADC/ECG_V5,ECG lead V5 wave,W/500,mV,40,50
+SNUADC/FEM,Femoral arterial pressure wave,W/500,mmHg,40,50
+SNUADC/PLETH,Plethysmography wave,W/500,unitless,40,50
+Solar8000/ART_DBP,Diastolic arterial pressure,N,mmHg,40,50
+Solar8000/ART_MBP,Mean arterial pressure,N,mmHg,40,50
+Solar8000/ART_SBP,Systolic arterial pressure,N,mmHg,40,50
+Solar8000/BT,Body temperature,N,?,40,50
+Solar8000/CVP,Central venous pressure,N,mmHg,40,50
+Solar8000/ETCO2,End-tidal CO2,N,mmHg,40,50
+Solar8000/FEM_DBP,Femoral diastolic arterial pressure,N,mmHg,40,50
+Solar8000/FEM_MBP,Femoral mean arterial pressure,N,mmHg,40,50
+Solar8000/FEM_SBP,Femoral systolic arterial pressure,N,mmHg,40,50
+Solar8000/FEO2,Fraction of expired O2,N,%,40,50
+Solar8000/FIO2,Fraction of inspired O2,N,%,40,50
+Solar8000/GAS2_EXPIRED,Expiratory volatile concentration,N,%,40,50
+Solar8000/GAS2_INSPIRED,Inspiratory volatile concentration,N,%,40,50
+Solar8000/HR,Heart rate,N,/min,40,50
+Solar8000/INCO2,Inspiratory CO2,N,mmHg,40,50
+Solar8000/NIBP_DBP,Non-invasive diastolic arterial pressure,N,mmHg,40,50
+Solar8000/NIBP_MBP,Non-invasive mean arterial pressure,N,mmHg,40,50
+Solar8000/NIBP_SBP,Non-invasive systolic arterial pressure,N,mmHg,40,50
+Solar8000/PA_DBP,Pulmonary diastolic arterial pressure,N,mmHg,40,50
+Solar8000/PA_MBP,Pulmonary mean arterial pressure,N,mmHg,40,50
+Solar8000/PA_SBP,Pulmonary systolic arterial pressure,N,mmHg,40,50
+Solar8000/PLETH_HR,Heart rate based on plethysmography,N,/min,40,50
+Solar8000/PLETH_SPO2,Percutaneous oxygen saturation,N,%,40,50
+Solar8000/RR,Respiratory rate based on ECG,N,/min,40,50
+Solar8000/RR_CO2,Respiratory rate based on capnography,N,/min,40,50
+Solar8000/ST_AVF,ST segment in lead aVF,N,mm,40,50
+Solar8000/ST_AVL,ST segment in lead aVL,N,mm,40,50
+Solar8000/ST_AVR,ST segment in lead aVR,N,mm,40,50
+Solar8000/ST_I,ST segment in lead I,N,mm,40,50
+Solar8000/ST_II,ST segment in lead II,N,mm,40,50
+Solar8000/ST_III,ST segment in lead III,N,mm,40,50
+Solar8000/ST_V5,ST segment in lead V5,N,mm,40,50
+Solar8000/VENT_COMPL,Airway compliance (from ventilator),N,mL/mbar,40,50
+Solar8000/VENT_INSP_TM,Inspiratory time (from ventilator),N,sec,40,50
+Solar8000/VENT_MAWP,Mean airway pressure (from ventilator),N,mbar,40,50
+Solar8000/VENT_MEAS_PEEP,Positive end-expiratory pressure (from ventilator),N,mbar,40,50
+Solar8000/VENT_MV,Minute ventilation (from ventilator),N,L/min,40,50
+Solar8000/VENT_PIP,Peak inspiratory pressure (from ventilator),N,mbar,40,50
+Solar8000/VENT_PPLAT,Plateau pressure (from ventilator),N,mbar,40,50
+Solar8000/VENT_RR,Respiratory rate (from ventilator),N,/min,40,50
+Solar8000/VENT_SET_FIO2,Set fraction of inspired O2 (from ventilator),N,%,40,50
+Solar8000/VENT_SET_PCP,Set peak inspiratory pressure in pressure control mode (from ventilator),N,cmH2O,40,50
+Solar8000/VENT_SET_TV,Set tidal volume in volume control mode (from ventilator),N,mL,40,50
+Solar8000/VENT_TV,Measured tidal volume (from ventilator),N,mL,40,50
+Primus/AWP,Airway pressure wave,W/62.5,hPa,40,50
+Primus/CO2,Capnography wave,W/62.5,mmHg,40,50
+Primus/COMPLIANCE,Airway compliance,N,mL/mbar,40,50
+Primus/ETCO2,End-tidal CO2,N,mmHg,40,50
+Primus/EXP_DES,Expiratory desflurane pressure,N,kPa,40,50
+Primus/EXP_SEVO,Expiratory sevoflurane pressure,N,kPa,40,50
+Primus/FEN2O,Fraction of inspired N2O,N,%,40,50
+Primus/FEO2,Fraction of expired O2,N,%,40,50
+Primus/FIN2O,Fraction of expired N2O,N,%,40,50
+Primus/FIO2,Fraction of inspired O2,N,%,40,50
+Primus/FLOW_AIR,Flow rate of air,N,mL/min,40,50
+Primus/FLOW_N2O,Flow rate of N2O,N,mbar,40,50
+Primus/FLOW_O2,Flow rate of O2,N,mL/min,40,50
+Primus/INCO2,Inspiratory CO2,N,mmHg,40,50
+Primus/INSP_DES,Inspiratory desflurane pressure,N,kPa,40,50
+Primus/INSP_SEVO,Inspiratory sevoflurane pressure,N,kPa,40,50
+Primus/MAC,Minimum alveolar concentration of volatile,N,unitless,40,50
+Primus/MAWP_MBAR,Mean airway pressure,N,mbar,40,50
+Primus/MV,Minute volume,N,L,40,50
+Primus/PAMB_MBAR,Ambient pressure,N,mbar,40,50
+Primus/PEEP_MBAR,Positive end expiratory pressure (PEEP),N,mbar,40,50
+Primus/PIP_MBAR,Peak inspiratory pressure,N,mbar,40,50
+Primus/PPLAT_MBAR,Plateau pressure,N,mbar,40,50
+Primus/RR_CO2,Respiratory rate based on capnography,N,/min,40,50
+Primus/SET_AGE,Patient age,N,years,40,50
+Primus/SET_FIO2,Set fraction of inspired O2,N,%,40,50
+Primus/SET_FLOW_TRIG,Set flow trigger value,N,mL/min,40,50
+Primus/SET_FRESH_FLOW,Set fresh gas flow,N,mL/min,40,50
+Primus/SET_INSP_PAUSE,Set inspiratory pause,N,%,40,50
+Primus/SET_INSP_PRES,Set inspiratory pressure,N,mbar,40,50
+Primus/SET_INSP_TM,Set inspiratory time,N,sec,40,50
+Primus/SET_INTER_PEEP,Set positive end expiratory pressure (PEEP),N,mbar,40,50
+Primus/SET_PIP,Set peak inspiratory pressure,N,mbar,40,50
+Primus/SET_RR_IPPV,Set respiratory rate,N,mbar,40,50
+Primus/SET_TV_L,Set tidal volume in liter,N,L,40,50
+Primus/TV,Tidal volume,N,mL,40,50
+Primus/VENT_LEAK,Ventilator leakage,N,mL/min,40,50
+Orchestra/AMD_RATE,Infusion rate (amiodarone 2 mg/mL),N,mL/hr,40,50
+Orchestra/AMD_VOL,Infused volume (amiodarone 2 mg/mL),N,mL,40,50
+Orchestra/DEX2_RATE,Infusion rate (dexmedetomidine 2 mcg/mL),N,mL/hr,40,50
+Orchestra/DEX2_VOL,Infused volume (dexmedetomidine 2 mcg/mL),N,mL,40,50
+Orchestra/DEX4_RATE,Infusion rate (dexmedetomidine 4 mcg/mL),N,mL/hr,40,50
+Orchestra/DEX4_VOL,Infused volume (dexmedetomidine 4 mcg/mL),N,mL,40,50
+Orchestra/DOBU_RATE,Infusion rate (dobutamine 2 mg/mL),N,mL/hr,40,50
+Orchestra/DOBU_VOL,Infused volume (dobutamine 2 mg/mL),N,mL,40,50
+Orchestra/DOPA_RATE,Infusion rate (dopamine 2 mg/mL),N,mL/hr,40,50
+Orchestra/DOPA_VOL,Infused volume (dopamine 2 mg/mL),N,mL,40,50
+Orchestra/DTZ_RATE,Infusion rate (diltiazem 1 mg/mL),N,mL/hr,40,50
+Orchestra/DTZ_VOL,Infused volume (diltiazem 1 mg/mL),N,mL,40,50
+Orchestra/EPI_RATE,Infusion rate (epinephrine 20 mcg/mL),N,mL/hr,40,50
+Orchestra/EPI_VOL,Infused volume (epinephrine 20 mcg/mL),N,mL,40,50
+Orchestra/FUT_RATE,Infusion rate (futhan 0.5 mg/mL),N,mL/hr,40,50
+Orchestra/FUT_VOL,Infused volume (futhan 0.5 mg/mL),N,mL,40,50
+Orchestra/MRN_RATE,Infusion rate (milrinone 200 mcg/mL),N,mL/hr,40,50
+Orchestra/MRN_VOL,Infused volume (milrinone 200 mcg/mL),N,mL,40,50
+Orchestra/NEPI_RATE,Infusion rate (norepinephrine 20 mcg/mL),N,mL/hr,40,50
+Orchestra/NEPI_VOL,Infused volume (norepinephrine 20 mcg/mL),N,mL,40,50
+Orchestra/NPS_RATE,Infused rate (nitroprusside 0.2 mg/mL),N,mL/hr,40,50
+Orchestra/NPS_VOL,Infusion volume (nitroprusside 0.2 mg/mL),N,mL,40,50
+Orchestra/NTG_RATE,Infused rate (nitroglycerine 0.2 mg/mL),N,mL/hr,40,50
+Orchestra/NTG_VOL,Infusion volume (nitroglycerine 0.2 mg/mL),N,mL,40,50
+Orchestra/OXY_RATE,Infused rate (oxytocin 0.2 U/mL),N,mL/hr,40,50
+Orchestra/OXY_VOL,Infusion volume (oxytocin 0.2 U/mL),N,mL,40,50
+Orchestra/PGE1_RATE,Infused rate (prostaglandin-E1 2 mg/mL),N,mL/hr,40,50
+Orchestra/PGE1_VOL,Infusion volume (prostaglandin-E1 2 mg/mL),N,mL,40,50
+Orchestra/PHEN_RATE,Infused rate (phenylephrine 100 mcg/mL),N,mL/hr,40,50
+Orchestra/PHEN_VOL,Infusion volume (phenylephrine 100 mcg/mL),N,mL,40,50
+Orchestra/PPF20_CE,Effect-site concentration (propofol 20 mg/mL),N,mcg/mL,40,50
+Orchestra/PPF20_CP,Plasma concentration (propofol 20 mg/mL),N,mcg/mL,40,50
+Orchestra/PPF20_CT,Target concentration (propofol 20 mg/mL),N,mcg/mL,40,50
+Orchestra/PPF20_RATE,Infusion rate (propofol 20 mg/mL),N,mL/hr,40,50
+Orchestra/PPF20_VOL,Infused volume (propofol 20 mg/mL),N,mL,40,50
+Orchestra/RFTN20_CE,Effect-site concentration (remifentanil 20 mcg/mL),N,ng/mL,40,50
+Orchestra/RFTN20_CP,Plasma concentration (remifentanil 20 mcg/mL),N,ng/mL,40,50
+Orchestra/RFTN20_CT,Target concentration (remifentanil 20 mcg/mL),N,ng/mL,40,50
+Orchestra/RFTN20_RATE,Infusion rate (remifentanil 20 mcg/mL),N,mL/hr,40,50
+Orchestra/RFTN20_VOL,Infused volume (remifentanil 20 mcg/mL),N,mL,40,50
+Orchestra/RFTN50_CE,Effect-site concentration (remifentanil 50 mcg/mL),N,ng/mL,40,50
+Orchestra/RFTN50_CP,Plasma concentration (remifentanil 50 mcg/mL),N,ng/mL,40,50
+Orchestra/RFTN50_CT,Target concentration (remifentanil 50 mcg/mL),N,ng/mL,40,50
+Orchestra/RFTN50_RATE,Infusion rate (remifentanil 50 mcg/mL),N,mL/hr,40,50
+Orchestra/RFTN50_VOL,Infused volume (remifentanil 50 mcg/mL),N,mL,40,50
+Orchestra/ROC_RATE,Infusion rate (rocuronium 2 mg/mL),N,mL/hr,40,50
+Orchestra/ROC_VOL,Infused volume (rocuronium 2 mg/mL),N,mL,40,50
+Orchestra/VASO_RATE,Infusion rate (vasopressin 0.2 U/mL),N,mL/hr,40,50
+Orchestra/VASO_VOL,Infused volume (vasopressin 0.2 U/mL),N,mL,40,50
+Orchestra/VEC_RATE,Infusion rate (vecuronium 1 mg/mL),N,mL/hr,40,50
+Orchestra/VEC_VOL,Infused volume (vecuronium 1 mg/mL),N,mL,40,50
+BIS/BIS,Bispectral index value,N,unitless,40,50
+BIS/EEG1_WAV,EEG wave from channel 1,W/128,uV,40,50
+BIS/EEG2_WAV,EEG wave from channel 2,W/128,uV,40,50
+BIS/EMG,Electromyography power,N,dB,40,50
+BIS/SEF,Spectral edge frequency,N,Hz,40,50
+BIS/SQI,Signal quality index,N,%,40,50
+BIS/SR,Suppression ratio,N,%,40,50
+BIS/TOTPOW,Total power,N,dB,40,50
+Invos/SCO2_L,Cerebral oxygen saturation (Left),N,%,40,50
+Invos/SCO2_R,Cerebral oxygen saturation (Right),N,%,40,50
+Vigileo/CI,Cardiac index,N,L/min/m2,40,50
+Vigileo/CO,Cardiac output,N,L/min,40,50
+Vigileo/SV,Stroke volume,N,mL/beat,40,50
+Vigileo/SVI,Stroke volume index,N,mL/beat/m2,40,50
+Vigileo/SVV,Stroke volume variation,N,%,40,50
+EV1000/ART_MBP,Mean arterial pressure,N,mmHg,40,50
+EV1000/CI,Cardiac index,N,L/min/m2,40,50
+EV1000/CO,Cardiac output,N,L/min,40,50
+EV1000/CVP,Central venous pressure wave,N,cmH2O,40,50
+EV1000/SV,Stroke volume,N,mL/beat,40,50
+EV1000/SVI,Stroke volume index,N,mL/beat/m2,40,50
+EV1000/SVR,Systemic vascular resistance,N,dn-s/cm5,40,50
+EV1000/SVRI,Systemic vascular resistance index,N,dn-s-m2/cm5,40,50
+EV1000/SVV,Stroke volume variation,N,%,40,50
+Vigilance/BT_PA,Pulmonary artery temperature,N,?,40,50
+Vigilance/CI,Cardiac index,N,L/min/m2,40,50
+Vigilance/CO,Cardiac output,N,L/min,40,50
+Vigilance/EDV,End-diastolic volume,N,mL,40,50
+Vigilance/EDVI,End-diastolic volume index,N,mL/m2,40,50
+Vigilance/ESV,End-systolic volume,N,mL,40,50
+Vigilance/ESVI,End-systolic volume index,N,mL/m2,40,50
+Vigilance/HR_AVG,Average heart rate,N,/min,40,50
+Vigilance/RVEF,Right ventricular ejection fraction,N,%,40,50
+Vigilance/SNR,Signal to noise ratio,N,dB,40,50
+Vigilance/SQI,Signal quality index,N,%,40,50
+Vigilance/SV,Stroke volume,N,mL/beat,40,50
+Vigilance/SVI,Stroke volume index,N,mL/beat/m2,40,50
+Vigilance/SVO2,Mixed venous oxygen saturation,N,%,40,50
+CardioQ/ABP,Arterial pressure wave,W/180,mmHg,40,50
+CardioQ/FLOW,Flow wave,W/180,cm/sec,40,50
+CardioQ/CI,Cardiac index,N,L/min/m2,40,50
+CardioQ/CO,Cardiac output,N,L/min,40,50
+CardioQ/FTc,Flow time corrected,N,ms,40,50
+CardioQ/FTp,Flow time to peak,N,ms,40,50
+CardioQ/HR,Heart rate,N,/min,40,50
+CardioQ/MA,Mean acceleration,N,cm/sec2,40,50
+CardioQ/MD,Minute distance,N,cm,40,50
+CardioQ/PV,Peak velocity,N,cm/sec,40,50
+CardioQ/SD,Stroke distance,N,cm,40,50
+CardioQ/SV,Stroke volume,N,mL/beat,40,50
+CardioQ/SVI,Stroke volume index,N,mL/beat/m2,40,50
+FMS/FLOW_RATE,Flow rate,N,mL,40,50
+FMS/INPUT_AMB_TEMP,Input ambient temperature,N,?,40,50
+FMS/INPUT_TEMP,Input fluid temperature,N,?,40,50
+FMS/OUTPUT_AMB_TEMP,Output ambient temperature,N,?,40,50
+FMS/OUTPUT_TEMP,Output fluid temperature,N,?,40,50
+FMS/PRESSURE,Infusion line pressure,N,mmHg,40,50
+FMS/TOTAL_VOL,Total infused volume,N,mL,40,50
